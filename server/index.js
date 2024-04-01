@@ -26,8 +26,8 @@ require('./models/user_model');
 require('./models/tweet_model');
 
 //inserting routes
-app.use('/API/auth', require('./routes/auth'));
-app.use('/API', require('./routes/user'));
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api', require('./routes/user'));
 app.use('/api/tweet', require('./routes/tweet'));
 
 //testing route

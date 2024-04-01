@@ -204,7 +204,7 @@ function Signup() {
     setLoading(true);
 
     try {
-      const response = await axios.post(`${Base_URL}/api/auth/signup`, {
+      const response = await axios.post(`${Base_URL}/API/auth/signup`, {
         Name,
         Username,
         Email,
